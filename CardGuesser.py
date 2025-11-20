@@ -3,7 +3,7 @@ import random
 
 def cardGuess():
     CardValue = random.randint(1, 11)
-    print("Guess Card...please....")
+    print("Guess Card...please....really, please, no more...")
     return CardValue
 
 
