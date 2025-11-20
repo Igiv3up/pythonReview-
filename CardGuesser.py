@@ -3,6 +3,7 @@ import random
 
 def cardGuess():
     CardValue = random.randint(1, 11)
+    print("Hey")
     return CardValue
 
 
@@ -21,4 +22,4 @@ def startgame():
     else:
         print('You both lose!')
 
-startGame()
+startgame()
